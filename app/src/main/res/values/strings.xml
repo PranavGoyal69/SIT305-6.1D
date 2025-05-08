@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Personalized Learning</string>
+    <string name="welcome_student">Welcome, Student!</string>
+    <string name="lets_learn">Let\'s Start Learning!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="need_an_account">Need an Account?</string>
+    <string name="lets_get_you_setup">Let\'s get you Setup!</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="your_interests">Your Interests</string>
+    <string name="select_up_to_10_topics">You may select up to 10 topics</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="your_tasks">Your Tasks</string>
+    <string name="submit">Submit</string>
+    <string name="question_results">Question Results</string>
+    <string name="continue_learning">Continue Learning</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvUserAnswer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Your answer: ..." />
+
+        <ImageView
+            android:id="@+id/ivStatus"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="8dp"
+            android:contentDescription="Status icon"
+            android:src="@drawable/ic_correct" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCorrectAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correct answer: ..." />
+</LinearLayout>

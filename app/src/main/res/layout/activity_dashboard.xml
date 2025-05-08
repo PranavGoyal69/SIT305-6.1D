@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Top bar: Welcome and Logout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Welcome"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout" />
+    </LinearLayout>
+
+    <!-- Topic Input -->
+    <EditText
+        android:id="@+id/etTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter quiz topic"
+        android:inputType="text"
+        android:layout_marginTop="16dp" />
+
+    <!-- Generate Quiz Button -->
+    <Button
+        android:id="@+id/btnGenerateQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Quiz"
+        android:layout_marginTop="8dp" />
+
+    <!-- Title for Tasks/Quizzes -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/your_tasks"
+        android:textSize="18sp" />
+
+    <!-- RecyclerView to display tasks -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTasks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
